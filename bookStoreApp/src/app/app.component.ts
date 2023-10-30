@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'bookStoreApp';
+  public email:string = 'sample@gmail.com';
+  public user:string = 'nunya';
 }
