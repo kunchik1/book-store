@@ -6,6 +6,7 @@ import { ToolbarComponent } from './components/toolbar/toolbar.component';
 
 import { MaterialModule } from './material.module';
 import { FooterComponent } from './components/footer/footer.component';
+import { MatCard, MatCardModule } from '@angular/material/card';
 
 
 @NgModule({
@@ -17,9 +18,8 @@ import { FooterComponent } from './components/footer/footer.component';
   imports: [
     CommonModule,
     RouterModule,
-
     MaterialModule
   ],
-  exports:[ToolbarComponent, FooterComponent]
+  exports:[ToolbarComponent, FooterComponent, MaterialModule]
 })
 export class SharedModule { }
